@@ -1,0 +1,12 @@
+{
+  "WALLETS":"/Wallets",
+  "LISTS":"/lists",
+  "COMMANDS":"/commands",
+  "MESSAGES":"/messages",
+  "APPLICATION":"/application",
+  "TENANT":"/tenant",
+  "DAUS":"/daily-active-users",
+  "DAUTOTALMONTH":"/total?month=",
+  "DAUMONTHLYBYBOT":"/monthly/by-bot?month=",
+  "DAUDAILY":"/daily?month="
+}

@@ -1,0 +1,24 @@
+{
+  "name": "just_billing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:hmg":".\\node_modules\\.bin\\cypress.cmd run --env host=k8s-hmg-api",
+    "cy:run:prod":".\\node_modules\\.bin\\cypress.cmd run --env host=k8s-prod-api",
+    "cy:run:multiaz":".\\node_modules\\.bin\\cypress.cmd run --env host=multiaz-prod-api",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run:blip":".\\node_modules\\.bin\\cypress.cmd run --env host=hmg"
+ 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@testing-library/cypress": "^7.0.6",
+    "cypress": "^8.1.0",
+    "cypress-xpath": "1.6.2",
+    "faker-br": "^0.4.1",
+    "nodemailer": "^6.4.10"
+  }
+}

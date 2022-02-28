@@ -1,0 +1,11 @@
+{
+  "api":"k8s-hmg-api",
+  "baseUrlBlipAi":"https://k8s-hmg-http.blip.ai",
+  "baseUrlMsging":"https://hmg-http.msging.net",
+  "baseUrlAccount":"https://hmg-account.blip.ai/",
+  "authorizationWallet": "Key YWRtaW46TVZkVm5iblNsYUVjbGpkUzhvRWs=",
+  "authorizationAdmin": "Key YWRtaW46TVZkVm5iblNsYUVjbGpkUzhvRWs=",
+  "authorizationBilling": "Key YmlsbGluZ2plYW46dmN3bEo1UFg3RGRsNUs1QjV1bXA=",
+  "wallet":"JIA1+M8ogH+HWbeNqcl6INL0LTmzMTE+USwGHCKK3gY=",
+  "walletId":"6%2FREQyrrRxwd%2BfS1FySKdDoAwI8eAMifaWhyD%2Fa1qMQ%3D"
+}

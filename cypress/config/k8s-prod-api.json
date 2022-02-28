@@ -1,0 +1,10 @@
+{
+  "api":"k8s-prod-api",
+  "baseUrlBlipAi":"https://k8s-http.blip.ai",
+  "baseUrlMsging":"https://k8s-http.msging.net",
+  "authorizationWallet":"Key YWRtaW46V2JMbFFrQ3FkS0JORWt6OHBYR1E=",
+  "authorizationAdmin": "Key YWRtaW46TVZkVm5iblNsYUVjbGpkUzhvRWs=",
+  "authorizationBilling": "Key YmlsbGluZ2plYW46dmN3bEo1UFg3RGRsNUs1QjV1bXA=",
+  "wallet":"0SLnRBnq%2FqUbjVEu1195Du7tXNFCK%2BqADgzTRPuD%2FAY%3D",
+  "walletId":"6%2FREQyrrRxwd%2BfS1FySKdDoAwI8eAMifaWhyD%2Fa1qMQ%3D"
+}
