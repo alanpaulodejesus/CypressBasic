@@ -7,7 +7,7 @@ require('cypress-xpath')
 context("Validate DAUs Metrics Front End", () => {
     beforeEach(() => {
       
-      cy.loginWithSucess("alan.jesus@take.net", "Cruzeiro@1");
+      cy.loginWithSucess("****", "****");
       cy.visit("https://"+`${DATA.contractDau}`+".hmg.blip.ai"+`${ENDPOINTS.APPLICATION}`+`${ENDPOINTS.TENANT}`+`${ENDPOINTS.DAUS}`);
       
     });
@@ -41,25 +41,13 @@ context("Validate DAUs Metrics Front End", () => {
         .its('0.contentDocument.body')
         .then(body => {
           cy.wrap(body).find('//*[@title="'+totalPos1+'"]')
-          //cy.wrap(body).find('.sc-clIzBv')
         })
-
       })
       cy.getMetrics(`${ENDPOINTS.TENANT}`+"s"+`/${DATA.contractDau}`+`${ENDPOINTS.DAUS}`+`${ENDPOINTS.DAUDAILY}`+dateCurrent+"&$take=5").then(response=>{
         expect(response).property('status').to.equal(200)
         expect(response.body.resource.items[0]).to.have.keys('total', 'dateReference')
         const totalPosDay1 = response.body.resource.items[0].total
         expect(totalPosDay1).to.eql(13252)
-        
       })
-      /*
-      cy.wait(6000);
-      cy.get('#blip-tenant')
-      .its('0.contentDocument.body')
-      .then(body => {
-        //cy.wrap(body).find('//*[@title="387337"]')
-        cy.wrap(body).find('.sc-clIzBv')
-      })
-      */
     });
   });
