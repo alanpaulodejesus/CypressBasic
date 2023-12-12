@@ -22,7 +22,7 @@ context('Send Message Whatsapp Active', () => {
               .then(response => {
                 expect(response).property('status').to.equal(202)
 
-                cy.wait(6000)
+                cy.wait(1000)
                 cy.getWalletTransaction(UUID)
                   .then(response => {
 
